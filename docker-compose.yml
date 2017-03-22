@@ -1,0 +1,5 @@
+efb:
+  image: royx/docker-efb:dev
+  volumes:
+    - ./config.py:/opt/ehForwarderBot/config.py
+    - ./tgdata.db:/opt/ehForwarderBot/plugins/eh_telegram_master/tgdata.db
